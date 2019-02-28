@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>home</title>
+    <link rel="shortcut icon" href="img/mypic.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/midea.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+    <!-- menu -->
+    <aside>
+
+        <nav>
+            <img src="img/mypic.jpg" alt="">
+            <a href="#home" title=""><i class="material-icons md-36">home</i>
+			<p>Home</p>
+     	</a>
+
+            <a href="#about" title=""><i class="material-icons md-36">person</i>
+			<p>About</p>
+     	</a>
+
+            <a href="#folio" title=""><i class="material-icons md-36">image</i>
+			<p>Folio</p>
+     	</a>
+
+            <a href="#contact" title=""><i class="material-icons md-36">mail</i>
+			<p>Contact</p>
+     	</a>
+
+        </nav>
+
+    </aside>
+    <!-- menu -->
+
+    <main>
+
+        <header class="home" id="home">
+            <br>
+            <br>
+            <h1>I'm Md.Abdulla</h1>
+            <h5>Web Designer // Develper</h5>
+            <img src="img/mypic.jpg" alt="" id="pic">
+        </header>
+    </main>
+
+    <!-- about -->
+    <section id="about" class="about">
+        <h2>About me</h2>
+        <p>
+            <span>Hi This is Mohammad Abdulla.</span> I am skilled and expert. I am competent at computer operation level-1,It support level-2 & also expert web design and developing .I must give you a better service than others.
+
+        </p>
+        <p>I have an exquisite blend of experience in HTML, CSS, Bootstrap, jQuery etc and I am ready to start working on your projects .I assure you that you'll get your job done correctly, on time and within your budget Please feel free to contact with me any time.</p>
+
+        <h3>MY Skills</h3>
+
+        <p>Html</p>
+        <div class="container">
+            <div class="skills html">98%</div>
+        </div>
+
+        <p>Css</p>
+        <div class="container">
+            <div class="skills css">95%</div>
+        </div>
+
+        <p>Bootstrap</p>
+        <div class="container">
+            <div class="skills bootstrap">90%</div>
+        </div>
+
+        <p>js</p>
+        <div class="container">
+            <div class="skills js">89%</div>
+        </div>
+
+        <p>Wordpress</p>
+        <div class="container">
+            <div class="skills wordpress">97%</div>
+        </div>
+
+    </section>
+    <!-- about -->
+
+    <!-- folio -->
+    <div id="folio" class="folio">
+
+        <h2>Folio</h2>
+        <div class="row-halves">
+            <div class="col">
+                <img src="img/ecommarce.jpg" alt="">
+                <h3>Business</h3>
+                <p>
+                    Building Responsive and thoughtful sites for small and large business.
+                </p>
+            </div>
+
+            <div class="col">
+                <img src="img/mobile.jpg" alt="">
+                <h3>Mobile</h3>
+                <p>
+                    Fully Responsive,mobile ready designs and implementation for all.
+                </p>
+            </div>
+        </div>
+
+        <div class="row-halves">
+            <div class="col">
+                <img src="img/uiux.jpg" alt="">
+                <h3>UX design</h3>
+                <p>
+                    Thougtful and intutive user experinces.All of my designs will be guaranteed to wor your clients.
+                </p>
+            </div>
+
+            <div class="col">
+                <img src="img/portfolio.jpg" alt="">
+                <h3>Personal</h3>
+                <p>
+                    I also design and build for personal projects.no idea is too small and everyone deserves a voice on the web.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!-- folio -->
+    <!-- contact -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <div class="container">
+            <form action="contact.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email">
+
+                <label for="message">Message</label>
+                <textarea name="message" style="height:200px" id="message"></textarea>
+                <input type="submit" name="" value="message">
+
+            </form>
+        </div>
+    </section>
+    <!-- contact -->
+    <!-- footer -->
+    <footer>
+        <section class="top-bar">
+            <a href="" title=""><i class="fab fa-facebook-f"></i></a>
+            <a href="" title=""><i class="fab fa-twitter"></i></a>
+            <a href="" title=""><i class="fab fa-github"></i></a>
+        </section>
+        <section class="bottom-bar">
+            <p>&copy Md.Abdulla</p>
+        </section>
+    </footer>
+    <!-- footer -->
+    <!-- js -->
+    <script src="js/jquery.nicescroll.min.js"></script>
+   
+    <!-- js -->
+<script>
+    $(function() {  
+    $("body").niceScroll();
+});
+</script>
+
+
+
+
+
+</body>
+
+</html>
